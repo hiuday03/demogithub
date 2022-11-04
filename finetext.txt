@@ -1,0 +1,40 @@
+D:\Ky_4\Block2\Duan1\demogithub>it config --global user.name "hiuday03"
+'it' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ky_4\Block2\Duan1\demogithub>git config --global user.name "hiuday03"
+
+D:\Ky_4\Block2\Duan1\demogithub>git config --global user.email "gvhiu03@gmail.com"
+
+D:\Ky_4\Block2\Duan1\demogithub> add .
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ky_4\Block2\Duan1\demogithub>git commit -m "đầu tiên"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        finetext.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\Ky_4\Block2\Duan1\demogithub>git add .
+
+D:\Ky_4\Block2\Duan1\demogithub>git commit -m "đầu tiên"
+[master (root-commit) 3728025] đầu tiên
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 finetext.txt
+
+D:\Ky_4\Block2\Duan1\demogithub>git push https://github.com/hiuday03/demogithub.git master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hiuday03/demogithub.git
+ * [new branch]      master -> master
+
+D:\Ky_4\Block2\Duan1\demogithub>
