@@ -38,3 +38,67 @@ To https://github.com/hiuday03/demogithub.git
  * [new branch]      master -> master
 
 D:\Ky_4\Block2\Duan1\demogithub>
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19045.2251]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Ky_4\Duan1\Nhom6\DuAn1_QuanLyBanIPhone>git log --oneline
+4c99478 (HEAD -> master, origin/master, origin/HEAD) them chuc nang cho form nhanvien
+bb5a82a edit repo
+fe4f6d1 Merge branch 'master' of https://github.com/nguyen293293/DuAn1_QuanLyBanIPhone
+891dab2 edit view
+15420c1 update service
+bce8e22 edit view
+0a2973c nguyen edit view
+44fbaee loi view nhan vien
+0ddeb97 update service and repo
+c8dd595 update service and repo
+6dee1c6 update service va repo
+5b7ca75 nguyen fix view
+2d76004 nguyen edit view
+c7f9b71 nguyen edit view
+ed0b8bc hai update service
+6f34c62 hai service
+3171831 hai tao service ko co du lieu
+cff44f1 nguyen mapping entity sql
+351747f nguyen thiet ke giao dien
+1d5dd4e Them HibernateUtil
+be93d86 Commit dau tien
+8f4bc63 Commit dau tien
+
+D:\Ky_4\Duan1\Nhom6\DuAn1_QuanLyBanIPhone>git add src/*
+warning: in the working copy of 'src/main/java/com/shoptao/view/DashBoard.form', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/shoptao/view/KhachHangPanel.form', LF will be replaced by CRLF the next time Git touches it
+
+D:\Ky_4\Duan1\Nhom6\DuAn1_QuanLyBanIPhone>git add target/*
+warning: in the working copy of 'target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst', LF will be replaced by CRLF the next time Git touches it
+
+D:\Ky_4\Duan1\Nhom6\DuAn1_QuanLyBanIPhone>git commit -m "hieu them chuc nang form khach hang"
+[master d174228] hieu them chuc nang form khach hang
+ 80 files changed, 382 insertions(+), 76 deletions(-)
+ create mode 100644 src/main/java/com/shoptao/viewmodel/KhachHangViewModel.java
+ delete mode 100644 target/classes/com/shoptao/repositories/test.class
+ create mode 100644 target/classes/com/shoptao/view/KhachHangPanel$3.class
+ create mode 100644 target/classes/com/shoptao/view/KhachHangPanel$4.class
+ create mode 100644 target/classes/com/shoptao/view/KhachHangPanel$5.class
+ create mode 100644 target/classes/com/shoptao/view/KhachHangPanel$6.class
+ create mode 100644 target/classes/com/shoptao/viewmodel/KhachHangViewModel.class
+
+D:\Ky_4\Duan1\Nhom6\DuAn1_QuanLyBanIPhone>git push origin master
+Enumerating objects: 194, done.
+Counting objects: 100% (194/194), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (100/100), done.
+Writing objects: 100% (111/111), 175.40 KiB | 5.16 MiB/s, done.
+Total 111 (delta 46), reused 11 (delta 2), pack-reused 0
+remote: Resolving deltas: 100% (46/46), completed with 20 local objects.
+To https://github.com/nguyen293293/DuAn1_QuanLyBanIPhone.git
+   4c99478..d174228  master -> master
+
+D:\Ky_4\Duan1\Nhom6\DuAn1_QuanLyBanIPhone>
